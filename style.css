@@ -1,0 +1,71 @@
+body {
+  font-family: arial, sans-serif;
+  color: white;
+  font-size: medium;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #212529;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-home {
+  color: white;
+  font-size: 15px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.navbar-link {
+  color: white;
+  font-size: 15px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.navbar-dropdown {
+  color: white;
+  font-size: 15px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-disabled {
+  color: grey;
+  font-size: 15px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-form {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.search-button {
+  background-color: #198754; /* Verde per il bottone */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #157347; /* Verde scuro */
+}
