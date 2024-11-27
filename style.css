@@ -20,6 +20,28 @@ body {
   text-decoration: none;
 }
 
+.navbar-hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.navbar-hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .navbar-links,
+  .navbar-form {
+    display: none; /* Nasconde i link e il form */
+  }
+  .navbar-hamburger {
+    display: flex; /* Mostra il menu hamburger */
+  }
+}
 .navbar-home {
   color: white;
   font-size: 15px;
